@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FA8C9682B76A63D00AFDE69 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA8C9672B76A63D00AFDE69 /* RatingView.swift */; };
+		1FA8C96A2B76CB5400AFDE69 /* AddMovieScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA8C9692B76CB5400AFDE69 /* AddMovieScreen.swift */; };
 		1FA9A5542B75CDDD00FF5F93 /* WhatToSeeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9A5532B75CDDD00FF5F93 /* WhatToSeeAppApp.swift */; };
 		1FA9A5562B75CDDD00FF5F93 /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9A5552B75CDDD00FF5F93 /* MovieListScreen.swift */; };
 		1FA9A5582B75CDDE00FF5F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA9A5572B75CDDE00FF5F93 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FA8C9672B76A63D00AFDE69 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		1FA8C9692B76CB5400AFDE69 /* AddMovieScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieScreen.swift; sourceTree = "<group>"; };
 		1FA9A5502B75CDDD00FF5F93 /* WhatToSeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToSeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA9A5532B75CDDD00FF5F93 /* WhatToSeeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToSeeAppApp.swift; sourceTree = "<group>"; };
 		1FA9A5552B75CDDD00FF5F93 /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				1FA9A5552B75CDDD00FF5F93 /* MovieListScreen.swift */,
+				1FA8C9692B76CB5400AFDE69 /* AddMovieScreen.swift */,
 			);
 			path = MovieList;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 		1FA9A5842B76052A00FF5F93 /* ReusableViews */ = {
 			isa = PBXGroup;
 			children = (
+				1FA8C9672B76A63D00AFDE69 /* RatingView.swift */,
 			);
 			path = ReusableViews;
 			sourceTree = "<group>";
@@ -327,9 +333,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA8C96A2B76CB5400AFDE69 /* AddMovieScreen.swift in Sources */,
 				1FA9A5562B75CDDD00FF5F93 /* MovieListScreen.swift in Sources */,
 				1FA9A5542B75CDDD00FF5F93 /* WhatToSeeAppApp.swift in Sources */,
 				1FA9A5882B7606E000FF5F93 /* View+Extensions.swift in Sources */,
+				1FA8C9682B76A63D00AFDE69 /* RatingView.swift in Sources */,
 				1FA9A5862B76054E00FF5F93 /* Date+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct MovieListScreen: View {
+    
+    @State private var isPresented: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List {
+            Text("Movies")
         }
-        .padding()
+        .listStyle(.plain)
+        .navigationTitle("Movies")
+        .navigationBarItems(trailing: Button("Add Movie") {
+            isPresented = true
+        })
+        .sheet(isPresented: $isPresented, content: {
+            AddMovieScreen()
+        })
+        .embedInNavigationView()
+        .onAppear(perform: {
+            
+        })
     }
 }
 
